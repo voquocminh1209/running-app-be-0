@@ -257,7 +257,7 @@ router.post('/post', async function(req, res){
             userID: req.body.userID,
             title: req.body.title,
             discription: req.body.discription,
-            date:req.body.date,
+            date: req.body.date,
             record: req.body.record,
             activity: req.body.record.activity,
             level: req.body.level,
